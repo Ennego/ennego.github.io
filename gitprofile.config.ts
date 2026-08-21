@@ -12,9 +12,9 @@ const CONFIG = {
   base: '/gitprofile/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['ciiipreses/canopy', 'ennego/cross-program-awards-affiliations'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Ciiipreses',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Ciiipreses seeks to reimagine the makers, users, and patrons of illuminated manuscripts in late medieval and early modern Seville.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://ciiipreses.github.io/sanisidoro/iiif/bfhdok-affesc4mgnhlbi/c61b388a06947c8e5a833826cd5ec765/full/2000,1851/0/default.jpg',
+          link: 'https://ciiipreses.github.io/canopy/',
         },
         {
-          title: 'Project Name',
+          title: 'Scholars Data Project',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'In 2025, four ARIAH member institutions contributed to a collective project to combine and analyze historical data about their scholars programs.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://storage.googleapis.com/jnl-up-j-johd-files/journals/1/articles/429/69428d6cce4ea.png',
+          link: 'https://www.ariah.info/news-opportunities/scholars-data',
         },
       ],
     },
@@ -54,80 +54,80 @@ const CONFIG = {
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {
     linkedin: 'matthew-westerby-04a7258',
-    mastodon: 'arifszn@mastodon.social',
     website: 'https://www.mjwesterby.com',
     phone: '',
     email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://orcid.org/0000-0003-0903-8200', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Wikidata',
+    'art history',
+    'data-intensive research',
+    'museum studies',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'National Gallery of Art, Center for Advanced Study in the Visual Arts',
+      position: 'Digital Research Officer',
+      from: '2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.nga.gov/research/center',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'National Gallery of Art, Center for Advanced Study in the Visual Arts',
+      position: 'Robert H. Smith Postdoctoral Research Associate for Digital Projects',
+      from: '2019',
+      to: '2023',
+      companyLink: 'https://www.nga.gov/research/center',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Les Enluminures, Ltc.',
+      position: 'Research Specialist',
+      from: '2014',
+      to: '2018',
+      companyLink: 'https://www.lesenluminures.com/',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Wisconsin–Madison',
+      degree: 'Ph.D.',
+      from: '2009',
+      to: '2017',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Denver',
+      degree: 'M.A.',
+      from: '2005',
+      to: '2009',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Africa in the World: materials without end. A Conversation with Risham Majeed and Matthew J. Westerby',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Different Visions',
+      authors: 'Risham Majeed and Matthew J. Westerby',
+      link: 'https://doi.org/10.61302/FFCT8180',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'What does it mean to call an object “African,” “Roman,” or “medieval” when its materials, makers, and meanings were never so neatly bounded? How does the Sahara function not as a barrier but as a highway? What can be revealed with reproductions that are touched, compared, and recombined freely?',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Towards a Linked Open Index: Reconciling Museum Records to Wikidata for Index of American Design Constituents',
+      conferenceName: '',
+      journalName: 'Journal of Open Humanities Data',
+      authors: 'Abigail Foster, Samantha Norling, Matthew J. Westerby',
+      link: 'https://doi.org/10.5334/johd.426',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Over 1,000 artists who created artwork for the IAD are represented as “constituents” in the National Gallery of Art’s Collections Management System (CMS), along with records of many more who participated as administrators and owners of objects, among other roles.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -136,11 +136,11 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'fantasy',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
