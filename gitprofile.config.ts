@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Matthew J. Westerby', description: 'Homepage – Matthew Westerby - Researcher', imageURL: '' },
   social: {
     linkedin: 'matthew-westerby-04a7258',
     website: 'https://www.mjwesterby.com',
@@ -93,22 +93,28 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of Wisconsin–Madison',
-      degree: 'Ph.D.',
+      degree: 'Ph.D., Art History',
       from: '2009',
       to: '2017',
     },
     {
       institution: 'University of Denver',
-      degree: 'M.A.',
+      degree: 'M.A., Art History',
       from: '2005',
-      to: '2009',
+      to: '2008',
+    },
+    {
+      institution: 'University of Colorado at Boulder',
+      degree: 'B.A., Art History',
+      from: '2001',
+      to: '2005',
     },
   ],
   publications: [
     {
       title: 'Africa in the World: materials without end. A Conversation with Risham Majeed and Matthew J. Westerby',
       conferenceName: '',
-      journalName: 'Different Visions',
+      journalName: 'Different Visions (2026)',
       authors: 'Risham Majeed and Matthew J. Westerby',
       link: 'https://doi.org/10.61302/FFCT8180',
       description:
@@ -117,11 +123,29 @@ const CONFIG = {
     {
       title: 'Towards a Linked Open Index: Reconciling Museum Records to Wikidata for Index of American Design Constituents',
       conferenceName: '',
-      journalName: 'Journal of Open Humanities Data',
-      authors: 'Abigail Foster, Samantha Norling, Matthew J. Westerby',
+      journalName: 'Journal of Open Humanities Data (2026)',
+      authors: 'Abigail Foster, Samantha Norling, and Matthew J. Westerby',
       link: 'https://doi.org/10.5334/johd.426',
       description:
         'Over 1,000 artists who created artwork for the IAD are represented as “constituents” in the National Gallery of Art’s Collections Management System (CMS), along with records of many more who participated as administrators and owners of objects, among other roles.',
+    },
+    {
+      title: 'Annotating Upstream: Digital Scholars, Art History, and the Interoperable Image',
+      conferenceName: '',
+      journalName: 'Open Library of Humanities Journal (2024)',
+      authors: 'Matthew J. Westerby',
+      link: 'https://doi.org/10.16995/olh.17217',
+      description:
+        'Images and descriptive metadata can be used and re-used in any number of contexts, but annotations are contextual fragments of scholarly insights that do not translate easily across domains. While data models for web annotation are clearly defined in a technical sense, their implementation is socially motivated.',
+    },
+    {
+      title: 'Advances in Automated Pigment Mapping for 15th-Century Manuscript Illuminations Using 1-D Convolutional Neural Networks and Hyperspectral Reflectance Image Cubes',
+      conferenceName: '',
+      journalName: 'Applied Sciences (2026)',
+      authors: 'Roxanne Radpour, Tania Kleynhans, Michelle Facini, Federica Pozzi, Matthew J. Westerby, and John K. Delaney',
+      link: 'https://doi.org/10.3390/app14166857',
+      description:
+        'This work builds upon prior investigations of 1-D spectral convolutional neural networks (CNNs), with a training set of ten illuminated manuscripts created by artists stylistically grouped under the notname “Master of the Cypresses” (15th century Seville, Spain).',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
