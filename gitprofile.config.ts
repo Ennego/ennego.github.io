@@ -48,6 +48,14 @@ const CONFIG = {
             'https://storage.googleapis.com/jnl-up-j-johd-files/journals/1/articles/429/69428d6cce4ea.png',
           link: 'https://www.ariah.info/news-opportunities/scholars-data',
         },
+        {
+          title: 'Early History of the Accademia di San Luca',
+          description:
+            'Notarial documents, maps, and guidebooks that shed light on the activities of the Accademia di San Luca in Rome, from around 1590 to 1657.',
+          imageUrl:
+            'https://nationalgalleryofart.github.io/accademia-maps-iiif/munsterromemapjacobs/757b3888f21e6a30b2780d5d598f2deb/full/720,608/0/default.jpg',
+          link: 'https://nationalgalleryofart.github.io/accademia-research/',
+        },
       ],
     },
   },
