@@ -108,14 +108,14 @@ const CONFIG = {
     {
       institution: 'University of Denver',
       degree: 'M.A., Art History',
-      from: '2005',
-      to: '2008',
+      from: '',
+      to: '',
     },
     {
       institution: 'University of Colorado at Boulder',
       degree: 'B.A., Art History',
-      from: '2001',
-      to: '2005',
+      from: '',
+      to: '',
     },
   ],
   publications: [
