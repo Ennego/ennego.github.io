@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -59,7 +59,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Matthew J. Westerby', description: 'Homepage – Matthew Westerby - Researcher', imageURL: '' },
+  seo: { title: 'Matthew J. Westerby', description: 'Home – Matthew Westerby, art historian and researcher', imageURL: '' },
   social: {
     linkedin: 'matthew-westerby-04a7258',
     website: 'https://www.mjwesterby.com',
