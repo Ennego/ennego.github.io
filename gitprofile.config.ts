@@ -56,6 +56,14 @@ const CONFIG = {
             'https://nationalgalleryofart.github.io/accademia-maps-iiif/munsterromemapjacobs/757b3888f21e6a30b2780d5d598f2deb/full/720,608/0/default.jpg',
           link: 'https://nationalgalleryofart.github.io/accademia-research/',
         },
+        {
+          title: 'In the Library: Reimagining America by Design',
+          description:
+            'In spring 2026, students from the Corcoran School for the Arts & Design studied the Index of American Design. Students explored collections, archives, and library resources and designed exhibitions of their own.',
+          imageUrl:
+            'https://github.com/Ennego/ennego.github.io/blob/main/public/SC-044_123191_001.jpg',
+          link: 'https://www.nga.gov/exhibitions/library-reimagining-america-design',
+        },
       ],
     },
   },
