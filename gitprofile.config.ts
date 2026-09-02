@@ -61,7 +61,7 @@ const CONFIG = {
           description:
             'In spring 2026, students from the Corcoran School for the Arts & Design studied the Index of American Design. Students explored collections, archives, and library resources and designed exhibitions of their own.',
           imageUrl:
-            'https://github.com/Ennego/ennego.github.io/blob/main/public/SC-044_123191_001.jpg',
+            'https://mjwesterby.com/SC-044_123191_001.jpg',
           link: 'https://www.nga.gov/exhibitions/library-reimagining-america-design',
         },
       ],
