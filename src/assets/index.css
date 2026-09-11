@@ -134,4 +134,24 @@ svg {
   to {
     opacity: 1;
   }
+
+}
+body {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
+
+.text-sm {
+  font-size: 16px !important;
+}
+
+.text-xs {
+  font-size: 15px !important;
 }
