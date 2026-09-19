@@ -157,7 +157,7 @@ const CONFIG = {
     {
       title: 'Advances in Automated Pigment Mapping for 15th-Century Manuscript Illuminations Using 1-D Convolutional Neural Networks and Hyperspectral Reflectance Image Cubes',
       conferenceName: '',
-      journalName: 'Applied Sciences (2026)',
+      journalName: 'Applied Sciences (2024)',
       authors: 'Roxanne Radpour, Tania Kleynhans, Michelle Facini, Federica Pozzi, Matthew J. Westerby, and John K. Delaney',
       link: 'https://doi.org/10.3390/app14166857',
       description:
