@@ -102,7 +102,7 @@ const CONFIG = {
       company: 'Les Enluminures, Ltc.',
       position: 'Research Specialist',
       from: '2014',
-      to: '2018',
+      to: '2019',
       companyLink: 'https://www.lesenluminures.com/',
     },
   ],
