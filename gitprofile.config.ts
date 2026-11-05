@@ -64,6 +64,14 @@ const CONFIG = {
             'https://mjwesterby.com/SC-044_123191_001.jpg',
           link: 'https://www.nga.gov/exhibitions/library-reimagining-america-design',
         },
+        {
+          title: 'Wikimedia DC GLAM Camp 2025',
+          description:
+            'An event to equip cultural professionals, heritage specialists, and interested Wikipedians/Wikimedians with the knowledge, skills, and resources needed to collaborate effectively on Wikimedia projects.',
+          imageUrl:
+            'https://mjwesterby.com/Wikimedia_DC_GLAM_Camp_2025_thumb.jpg',
+          link: 'https://en.wikipedia.org/wiki/Wikipedia:Meetup/DC/Wikimedia_DC_GLAM_Camp_2025',
+        },
       ],
     },
   },
