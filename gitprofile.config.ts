@@ -107,7 +107,7 @@ const CONFIG = {
       companyLink: 'https://www.nga.gov/research/center',
     },
     {
-      company: 'Les Enluminures, Ltc.',
+      company: 'Les Enluminures, Ltd.',
       position: 'Research Specialist',
       from: '2014',
       to: '2019',
@@ -124,14 +124,14 @@ const CONFIG = {
     {
       institution: 'University of Denver',
       degree: 'M.A., Art History',
-      from: '',
-      to: '',
+      from: '2005',
+      to: '2008',
     },
     {
       institution: 'University of Colorado at Boulder',
       degree: 'B.A., Art History',
-      from: '',
-      to: '',
+      from: '2001',
+      to: '2005',
     },
   ],
   publications: [
